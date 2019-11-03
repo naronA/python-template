@@ -1,7 +1,6 @@
 {
-  "ignore": [
-    ".venv"
-  ],
+  "ignore": ["*"],
+  "exclude": ["*"],
   "venvPath": ".venv",
   "pythonVersion": "3.7"
 }

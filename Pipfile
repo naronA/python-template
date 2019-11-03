@@ -8,12 +8,14 @@ flake8 = "*"
 pydocstyle = "*"
 neovim = "*"
 pynvim = "*"
-yapf = "*"
 pytest = "*"
 pre-commit = "*"
 mypy = "*"
 isort = "*"
 ipython = "*"
+black = "==19.10b0"
+flake8-bugbear = "*"
+jupyter = "*"
 
 [packages]
 
