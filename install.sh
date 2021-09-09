@@ -13,5 +13,5 @@ curl -s -L -O https://raw.githubusercontent.com/tMinamiii/python-template/master
 curl -s -L -O https://raw.githubusercontent.com/tMinamiii/python-template/master/pyproject.toml
 python -m venv .venv
 poetry config --local virtualenvs.in-project true
-poetry add -D "$(cat requirements.txt)"
+poetry add -D $(cat requirements.txt)
 echo
