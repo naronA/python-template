@@ -2,7 +2,6 @@
 name = "sandbox"
 version = "0.1.0"
 description = ""
-authors = ["tMinamiii <otherthan.new@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
