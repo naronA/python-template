@@ -39,7 +39,7 @@
   },
   "python.sortImports.path": "isort",
   "python.sortImports.args": [
-    "--settings-path=${workspaceFolder}/.isort.cfg"
+    "--settings-path=${workspaceFolder}/setup.cfg"
   ],
   "python.formatting.provider": "black",
   "editor.codeActionsOnSave": {
