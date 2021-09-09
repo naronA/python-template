@@ -1,13 +1,13 @@
 {
   "autoDocstring.docstringFormat": "google",
-  "pyright.disableLanguageServices": false,
-  "python.jediEnabled": false,
+  "python.languageServer": "Pylance",
   "python.linting.flake8Enabled": true,
   "python.linting.lintOnSave": true,
-  "python.linting.mypyEnabled": true,
+  "python.linting.pydocstyleEnabled": true,
   "python.linting.pycodestyleEnabled": false,
   "python.linting.pylintEnabled": false,
-  "python.linting.pydocstyleEnabled": true,
+  "python.linting.mypyEnabled": false,
+  "python.jediEnabled": false,
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
