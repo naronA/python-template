@@ -1,7 +1,7 @@
 #!/bin/sh
 set -Ceu
 
-if [ ! -e 'src' ]; then
+if [ ! -e "src" ]; then
   mkdir src
 fi
 curl -s -L https://raw.githubusercontent.com/tMinamiii/python-template/master/vscode/settings.json --create-dirs -o .vscode/settings.json
@@ -16,5 +16,5 @@ curl -s -L -O https://raw.githubusercontent.com/tMinamiii/python-template/master
 curl -s -L -O https://raw.githubusercontent.com/tMinamiii/python-template/master/pyproject.toml
 python -m venv .venv
 poetry config --local virtualenvs.in-project true
-poetry add -D '$(cat requirements.txt)'
+poetry add -D "$(cat requirements.txt)"
 echo
