@@ -17,4 +17,3 @@ curl -sLO -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/tMinami
 python -m venv .venv
 poetry config --local virtualenvs.in-project true
 poetry add -D $(cat requirements.txt)
-echo
