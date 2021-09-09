@@ -7,7 +7,6 @@
   "python.linting.pycodestyleEnabled": false,
   "python.linting.pylintEnabled": false,
   "python.linting.mypyEnabled": false,
-  "python.jediEnabled": false,
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -22,12 +21,6 @@
   "python.linting.pylintCategorySeverity.convention": "Warning",
   "python.linting.mypyCategorySeverity.note": "Warning",
   "json.format.enable": true,
-  "beautify.ignore": [
-    "**/*"
-  ],
-  "python.venvFolders": [
-    ".venv"
-  ],
   "python.pythonPath": ".venv/bin/python",
   "terminal.integrated.env.linux": {
     "PIPENV_DOTENV_LOCATION": "${workspaceFolder}/.env.workspace",
