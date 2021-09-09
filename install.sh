@@ -14,4 +14,6 @@ curl -s -L -O https://raw.githubusercontent.com/tMinamiii/python-template/master
 python -m venv .venv
 poetry config --local virtualenvs.in-project true
 poetry add -D $(cat requirements.txt)
-echo
+if [ ! -e "src" ]; then
+  mkdir src
+fi
