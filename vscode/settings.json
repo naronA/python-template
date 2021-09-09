@@ -6,7 +6,7 @@
   "python.linting.pydocstyleEnabled": true,
   "python.linting.pycodestyleEnabled": false,
   "python.linting.pylintEnabled": false,
-  "python.linting.mypyEnabled": false,
+  "python.linting.mypyEnabled": true,
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
