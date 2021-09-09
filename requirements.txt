@@ -5,7 +5,6 @@ ipython
 isort
 jupyterlab
 mypy
-sqlalchemy-stubs
 pre-commit
 pydocstyle
 pytest

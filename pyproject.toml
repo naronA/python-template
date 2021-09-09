@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "<project name>"
+name = "project name"
 version = "0.1.0"
 description = ""
 authors = ["name <email>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "3.9"
 
 [tool.poetry.dev-dependencies]
 
@@ -15,7 +15,7 @@ build-backend = "poetry.masonry.api"
 
 [tool.black]
 line-length = 99
-target-version = ['py38', 'py39']
+target-version = ['py39']
 include = '\.pyi?$'
 exclude = '''
 /(
