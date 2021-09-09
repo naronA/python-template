@@ -3,8 +3,10 @@ flake8-bugbear
 flake8
 ipython
 isort
-jupyter
+jupyterlab
 mypy
+sqlalchemy-stubs
 pre-commit
 pydocstyle
 pytest
+pytest-cov
