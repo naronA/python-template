@@ -14,8 +14,9 @@ Installationのコマンドを実行することで、セットアップが完�
 ## Requirements
 
 - Python 3.9
+- [Poetry](https://github.com/python-poetry/poetry)
 - [direnv](https://github.com/direnv/direnv)
-- [prettier](https://prettier.io/)
+- [prettier](https://github.com/prettier/prettier)
 
 ## Installation
 
