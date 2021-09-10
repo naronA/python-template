@@ -1,8 +1,10 @@
 # All in One Python Dev Env Template for VSCode
 
-比較的モダンなPythonの開発環境をしゅっと整えてくれるツールです。
+比較的モダンなPythonの開発環境を整えてくれるツールです。
 この環境でプロダクト開発し、納品までした設定なので現場レベルでも使えると思います。
 VSCodeとPylanceを意識して設定していますがVim + LSPでも動きます。
+
+[![Image from Gyazo](https://i.gyazo.com/s/8768539b9d408b075b473c92efe4f952.gif)](https://gyazo.com/8768539b9d408b075b473c92efe4f952)
 
 ## Motivation
 
