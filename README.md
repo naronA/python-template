@@ -21,7 +21,7 @@ Installationのコマンドを実行することで、セットアップが完�
 ## Installation
 
 ```sh
-curl -sSfL https://git.io/Ju0Rv | sh
+curl -sSfL https://git.io/Ju0Rv | bash
 ```
 
 ## Default Modules
