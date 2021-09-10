@@ -33,7 +33,6 @@ black
 flake8
 ipython
 isort
-jupyterlab
 mypy
 pre-commit
 pydocstyle
