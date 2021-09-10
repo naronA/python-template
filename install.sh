@@ -17,3 +17,6 @@ curl -sSfLO -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalida
 python -m venv .venv
 poetry config --local virtualenvs.in-project true
 poetry add -D $(cat requirements.txt)
+source .venv/bin/activate
+pre-commit install
+deactivate
