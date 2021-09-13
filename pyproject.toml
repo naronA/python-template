@@ -44,9 +44,9 @@ ignore = []
 stubPath = "src/stubs"
 venvPath = ".venv"
 
-reportMissingTypeStubs = false,
+reportMissingTypeStubs = false
 
-pythonVersion = "3.9",
+pythonVersion = "3.9"
 typeCheckingMode = "strict"
 
 executionEnvironments = [
