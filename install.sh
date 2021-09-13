@@ -10,7 +10,6 @@ curl -sSfL -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalidat
 curl -sSfL -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalidate" -H "Pragma: no-cache" https://raw.githubusercontent.com/tMinamiii/python-template/master/dot.gitignore -o .gitignore
 curl -sSfL -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalidate" -H "Pragma: no-cache" https://raw.githubusercontent.com/tMinamiii/python-template/master/dot.pre-commit-config.yaml -o .pre-commit-config.yaml
 curl -sSfLO -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalidate" -H "Pragma: no-cache" https://raw.githubusercontent.com/tMinamiii/python-template/master/setup.cfg
-curl -sSfLO -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalidate" -H "Pragma: no-cache" https://raw.githubusercontent.com/tMinamiii/python-template/master/pyrightconfig.json
 curl -sSfLO -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalidate" -H "Pragma: no-cache" https://raw.githubusercontent.com/tMinamiii/python-template/master/requirements.txt
 curl -sSfLO -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalidate" -H "Pragma: no-cache" https://raw.githubusercontent.com/tMinamiii/python-template/master/editorconfig
 curl -sSfLO -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalidate" -H "Pragma: no-cache" https://raw.githubusercontent.com/tMinamiii/python-template/master/pyproject.toml
