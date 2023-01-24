@@ -14,7 +14,7 @@ curl -sSfLO -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalida
 curl -sSfLO -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalidate" -H "Pragma: no-cache" https://raw.githubusercontent.com/tMinamiii/python-template/master/pyproject.toml
 curl -sSfLO -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalidate" -H "Pragma: no-cache" https://raw.githubusercontent.com/tMinamiii/python-template/master/setup.cfg
 
-pipenv install -r requirements.txt && rm requirements.txt
+pipenv install -d -r requirements.txt && rm requirements.txt
 source .venv/bin/activate
 pre-commit install
 deactivate
