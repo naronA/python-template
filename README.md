@@ -14,7 +14,6 @@ VSCodeとPylanceを意識して設定していますがVim + LSPでも動きま�
 
 ## Requirements
 
-- Python 3.11
 - [Pipenv](https://github.com/pypa/pipenv)
 - [direnv](https://github.com/direnv/direnv)
 - [prettier](https://github.com/prettier/prettier)
