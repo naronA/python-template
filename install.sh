@@ -22,7 +22,8 @@ curl -sSfLO -H "Expires: 0" -H "Cache-Control: no-cache, no-store, must-revalida
 sed -i -e "s/{MAJOR_VERSION}/${PYTHON_MAJOR_VERSION}/g" pyproject.toml
 sed -i -e "s/{MINOR_VERSION}/${PYTHON_MINOR_VERSION}/g" pyproject.toml
 
-pipenv install -r requirements.txt && rm requirements.txt
+pipenv install -d -r requirements.txt && rm requirements.txt
+
 source .venv/bin/activate
 pre-commit install
 deactivate
