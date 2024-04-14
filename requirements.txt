@@ -2,6 +2,7 @@ black
 flake8
 ipython
 isort
+ruff
 mypy
 pre-commit
 pydocstyle
